@@ -7,6 +7,7 @@ export interface Comment {
 	postId: string;
 	authorId: string;
 	comment: string;
+	creationDate?: string;
 }
 
 export const commentsFeatureKey = 'comments';
